@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.education-item {
+    margin-bottom: 2rem;
+}
+
+.education-item h3 {
+    color: #0056b3;
+    margin-bottom: 0.5rem;
+}
+
+.education-item p {
+    margin-bottom: 0.5rem;
+}
+
+.education-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.education-item ul li {
+    background: #f4f4f4;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 2px;
+}
+
+/* Work Experience Styles */
+.experience {
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+.experience img {
+    max-width: 60px; /* Ensure all achievement logos are the same size */
+    height: auto ;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.company-logo {
+    flex: 0 0 80px; /* Set a fixed size for logos */
+    margin-right: 1rem;
+}
+
+.company-logo img {
+    max-width: 60px;
+    height: auto; /* Ensure the height is equal to the width for a square logo */
+}
+
+.job-details {
+    flex: 1;
+}
+
+.job-details h3 {
+    color: #0056b3;
+}
+
+.job-details p {
+    margin-bottom: 0.5rem;
+}
+
+.job-details a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.job-details a:hover {
+    text-decoration: underline;
+}
+
+/* Project Styles */
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.project a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #007acc;
+    text-decoration: none;
+}
+
+/* Achievements Styles */
+.achievements {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.achievements img {
+    max-width: 60px; /* Ensure all achievement logos are the same size */
+    height: auto ;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.achievements div {
+    flex: 1;
+}
+
+.achievements h4 {
+    margin: 0 0 0.5rem;
+    color: #007acc;
+}
+
+.achievements p {
+    margin: 0 0 0.5rem;
+}
+
+.achievements a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.achievements a:hover {
+    text-decoration: underline;
+}
+
+/* Video Styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: auto;
+    overflow: hidden;
+    max-width: 70%;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Certifications Styles */
+.certifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certifications li {
+    margin-bottom: 0.5rem;
+}
+
+/* Skills Styles */
+.skills p {
+    margin-bottom: 0.5rem;
+}
+
+/* New Styles for Achievement Images */
+.achievement-image {
+    max-width: 300px !important;  /* Set a larger size for achievement images */
+    height: auto !important; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: round corners */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Optional: Add a container for better layout if needed */
+.achievement-images-container {
+     display: flex;
+    gap: 1rem; /* Space between images */
+    flex-wrap: wrap; /* Wrap images to new lines if needed */
+}
